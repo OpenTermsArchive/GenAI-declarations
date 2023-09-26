@@ -12,9 +12,9 @@ You can [explore the tracked versions](https://github.com/OpenTermsArchive/genai
 
 The documents declared in this repository are:
 
-- to be completed
-- ...
-- ...
+- Most popular generative AI services.
+- In the European Union jurisdiction.
+- In English.
 
 - - -
 
