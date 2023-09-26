@@ -1,0 +1,51 @@
+name: Validate declarations
+
+on:
+  push:
+    branches-ignore:
+      - 'main'
+  pull_request:
+    types: [ opened, reopened ]
+  workflow_call:
+
+jobs:
+  validate_schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm install
+      - run: npm run test:schema
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm install
+      - run: npm run lint
+      
+  validate_modified_declarations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # fetch all history for all branches and tags
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm install
+      - run: npm run test:modified
+      - name: Generate artifacts
+        if: ${{ failure() }}
+        run: npm run start:modified
+      - uses: actions/upload-artifact@v3
+        if: ${{ failure() }}
+        with:
+          name: snapshots_and_versions
+          path: ./data
+          if-no-files-found: error

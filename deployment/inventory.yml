@@ -1,0 +1,5 @@
+all:
+  hosts:
+    51.77.110.109:
+      ansible_user: debian
+      ed25519_fingerprint: ${serverFingerprint}
