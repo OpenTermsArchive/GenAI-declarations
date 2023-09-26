@@ -1,0 +1,44 @@
+{
+  "name": "GenAI",
+  "services": {
+    "repository": "https://github.com/OpenTermsArchive/GenAI-declarations.git",
+    "declarationsPath": "./declarations"
+  },
+  "recorder": {
+    "versions": {
+      "storage": {
+        "git": {
+          "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/GenAI-snapshots/commit/%SNAPSHOT_ID",
+          "repository": "git@github.com:OpenTermsArchive/GenAI-versions.git",
+          "path": "./data/versions"
+        }
+      }
+    },
+    "snapshots": {
+      "storage": {
+        "git": {
+          "repository": "git@github.com:OpenTermsArchive/GenAI-snapshots.git",
+          "path": "./data/snapshots"
+        }
+      }
+    }
+  },
+  "fetcher": {
+    "language": "en"
+  },
+  "notifier": {
+    "sendInBlue": {
+      "updatesListId": 0,
+      "updateTemplateId": 0
+    }
+  },
+  "tracker": {
+    "githubIssues": {
+      "repository": "OpenTermsArchive/GenAI-declarations"
+    }
+  },
+  "dataset": {
+    "title": "GenAI",
+    "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
+  }
+}
