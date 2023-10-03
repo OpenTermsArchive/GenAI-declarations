@@ -4,7 +4,12 @@
     "Terms of Service": {
       "fetch": "https://openai.com/policies/terms-of-use",
       "select": [
-        "#content"
+        "#landings-terms-of-use"
+      ],
+      "remove": [
+        "header",
+        "[aria-hidden=true]",
+        "footer"
       ],
       "executeClientScripts": true
     }
