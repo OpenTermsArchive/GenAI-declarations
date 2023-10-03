@@ -1,0 +1,12 @@
+{
+  "name": "OpenAI",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://openai.com/policies/terms-of-use",
+      "select": [
+        "#content"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
