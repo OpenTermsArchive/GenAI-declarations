@@ -1,6 +1,6 @@
 {
   "name": "OpenAI",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://openai.com/policies/terms-of-use",
       "select": [
