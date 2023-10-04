@@ -1,0 +1,11 @@
+{
+  "name": "Colony Labs, Inc.",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://scribehow.com/legal/terms",
+      "select": [
+        ".resources-block-inner-wrapper"
+      ]
+    }
+  }
+}
