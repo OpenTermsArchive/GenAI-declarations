@@ -1,6 +1,6 @@
 # Open Terms Archive - Generative AI services
 
-These services declarations are maintained and tracked by [Open Terms Archive](https://opentermsarchive.org).
+These services declarations are maintained by [The Sciences Po Law School Clinic](https://www.sciencespo.fr/ecole-de-droit/en/content/clinic.html) and tracked by [Open Terms Archive](https://opentermsarchive.org).
 
 The terms listed in this collection are tracked by the [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). 
 
