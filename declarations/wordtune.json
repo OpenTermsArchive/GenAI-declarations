@@ -1,0 +1,12 @@
+{
+  "name": "wordtune",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.wordtune.com/terms-of-use",
+      "select": [
+        ".title-64",
+        ".section > .legal"
+      ]
+    }
+  }
+}
