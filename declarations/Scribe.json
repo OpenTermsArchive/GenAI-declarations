@@ -6,6 +6,12 @@
       "select": [
         ".resources-block-inner-wrapper"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://scribehow.com/legal/privacy",
+      "select": [
+        ".resources-block-inner-wrapper"
+      ]
     }
   }
 }
