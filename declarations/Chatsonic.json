@@ -1,0 +1,12 @@
+{
+  "name": "Chatsonic",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://writesonic.com/terms",
+      "select": [
+        ".hero_block_title",
+        ".content_terms"
+      ]
+    }
+  }
+}
