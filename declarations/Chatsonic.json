@@ -1,0 +1,12 @@
+{
+  "name": "Chatsonic",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://writesonic.com/privacy-policy",
+      "select": [
+        ".hero_block_title",
+        ".content_terms"
+      ]
+    }
+  }
+}
