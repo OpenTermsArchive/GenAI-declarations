@@ -2,9 +2,9 @@
   "name": "OpenAI",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://openai.com/policies/terms-of-use",
+      "fetch": "https://openai.com/policies/service-terms",
       "select": [
-        "#landings-terms-of-use"
+        "#landings-service-terms"
       ],
       "remove": [
         "header",
