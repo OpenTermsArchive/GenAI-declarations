@@ -5,7 +5,11 @@
       "fetch": "https://docs.midjourney.com/docs/terms-of-service",
       "select": [
         "h1",
-        ".content_block_text:nth-child(4)"
+        ".content_container"
+      ],
+      "remove": [
+        "#lightTheme",
+        "#darkTheme"
       ],
       "executeClientScripts": true
     }
