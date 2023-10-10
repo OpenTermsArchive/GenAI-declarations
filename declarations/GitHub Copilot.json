@@ -31,8 +31,7 @@
       "select": [
         "#title-h1",
         ".MarkdownContent_markdownBody__7_8Gt"
-      ],
-      "executeClientScripts": true
+      ]
     }
   }
 }
