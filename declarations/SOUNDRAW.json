@@ -1,0 +1,11 @@
+{
+  "name": "SOUNDRAW",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://soundraw.io/gdpr_privacy",
+      "select": [
+        ".row"
+      ]
+    }
+  }
+}
