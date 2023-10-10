@@ -2,10 +2,10 @@
   "name": "Jasper",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://legal.jasper.ai/?_gl=1*gxuhoc*_gcl_au*NDk2Nzk4NzQ1LjE2OTU3NTE4OTI.*_ga*MTU4NTQ1MzEyNy4xNjk1NzUxODk2*_ga_D4P3CS8W5P*MTY5NTc1MTg5Ni4xLjEuMTY5NTc1MTkyNy4yOS4wLjA.#terms",
+      "fetch": "https://legal.jasper.ai/?_gl=1*gxuhoc*_gcl_au*NDk2Nzk4NzQ1LjE2OTU3NTE4OTI.*_ga*MTU4NTQ1MzEyNy4xNjk1NzUxODk2*_ga_D4P3CS8W5P*MTY5NTc1MTg5Ni4xLjEuMTY5NTc1MTkyNy4yOS4wLjA.#saas-agreement",
       "select": [
-        "#contract-id-269077 > .contract-header",
-        "#version-64f0edd292e431c60c6d1b39-locale-en-us"
+        "#contract-id-269076 > .contract-header",
+        "#version-64f2426992e431c60c951009-locale-en-us"
       ],
       "executeClientScripts": true
     }
