@@ -1,0 +1,11 @@
+{
+  "name": "DJ",
+  "documents": {
+    "Trackers Policy": {
+      "fetch": "https://www.spotify.com/us/legal/cookies-policy/",
+      "select": [
+        ".container"
+      ]
+    }
+  }
+}
