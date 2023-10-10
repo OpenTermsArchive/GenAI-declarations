@@ -16,6 +16,14 @@
       "fetch": "https://legal.jasper.ai/#privacy",
       "select": "#contract-id-271312",
       "executeClientScripts": true
+    },
+    "Brand Guidelines": {
+      "fetch": "https://legal.jasper.ai/?_gl=1*gxuhoc*_gcl_au*NDk2Nzk4NzQ1LjE2OTU3NTE4OTI.*_ga*MTU4NTQ1MzEyNy4xNjk1NzUxODk2*_ga_D4P3CS8W5P*MTY5NTc1MTg5Ni4xLjEuMTY5NTc1MTkyNy4yOS4wLjA.#platform-guidelines",
+      "select": [
+        "#contract-id-273262 > .contract-header",
+        "#version-64710487e1fafde85ca7ec1d-locale-en-us"
+      ],
+      "executeClientScripts": true
     }
   }
 }
