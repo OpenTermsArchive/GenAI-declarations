@@ -1,0 +1,11 @@
+{
+  "name": "豆包（Doubao)",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.doubao.com/legal/terms",
+      "select": [
+        ".draft-container"
+      ]
+    }
+  }
+}
