@@ -27,6 +27,14 @@
         ".select-version"
       ],
       "executeClientScripts": true
+    },
+    "Developer Terms": {
+      "fetch": "https://legal.jasper.ai/?_gl=1*gxuhoc*_gcl_au*NDk2Nzk4NzQ1LjE2OTU3NTE4OTI.*_ga*MTU4NTQ1MzEyNy4xNjk1NzUxODk2*_ga_D4P3CS8W5P*MTY5NTc1MTg5Ni4xLjEuMTY5NTc1MTkyNy4yOS4wLjA.#google-api-disclosure",
+      "select": [
+        "#contract-id-276236 > .contract-header",
+        "#version-6480a93882526c5cfec3c176-locale-en-us"
+      ],
+      "executeClientScripts": true
     }
   }
 }
