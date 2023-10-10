@@ -8,7 +8,7 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.bardeen.ai/privacy-policy",
+      "fetch": "https://www.bardeen.ai/security",
       "select": [
         ".content-text"
       ]
