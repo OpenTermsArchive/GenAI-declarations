@@ -2,11 +2,15 @@
   "name": "Murf.ai",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://murf.ai/security",
+      "fetch": "https://murf.ai/resources/privacy_policy/",
       "select": [
-        "span",
-        ".trust-content-area"
-      ]
+        "article"
+      ],
+      "remove": [
+        ".post__share",
+        ".postbar__inner"
+      ],
+      "executeClientScripts": true
     }
   }
 }
