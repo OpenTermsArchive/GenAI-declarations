@@ -1,0 +1,12 @@
+{
+  "name": "Murf.ai",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://murf.ai/security",
+      "select": [
+        "span",
+        ".trust-content-area"
+      ]
+    }
+  }
+}
