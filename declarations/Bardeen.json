@@ -1,0 +1,11 @@
+{
+  "name": "Bardeen",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bardeen.ai/terms-of-service",
+      "select": [
+        ".content-text"
+      ]
+    }
+  }
+}
