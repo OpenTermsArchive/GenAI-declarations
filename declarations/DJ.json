@@ -1,0 +1,11 @@
+{
+  "name": "DJ",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.spotify.com/us/legal/privacy-policy/",
+      "select": [
+        ".container"
+      ]
+    }
+  }
+}
