@@ -14,6 +14,17 @@
         "#right_sidebar"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.midjourney.com/docs/privacy-policy",
+      "select": [
+        ".content_container"
+      ],
+      "remove": [
+        "#navigation-container",
+        ".article-action-items:nth-child(2) li"
+      ],
+      "executeClientScripts": true
     }
   }
 }
