@@ -1,0 +1,22 @@
+{
+  "name": "Repharse.ai",
+  "documents": {
+    "Human Rights Policy": {
+      "fetch": "https://www.rephrase.ai/ethics",
+      "select": [
+        ".hero-heading-text-center",
+        ".body-medium",
+        ".textcontainer--about-us:nth-child(2) .h1-heading-48px",
+        "ul:nth-child(1)",
+        ".textcontainer--about-us:nth-child(1) .h1-heading-48px",
+        ".richtext--onwebsite > p:nth-child(1)",
+        ".textcontainer--about-us:nth-child(1) .richtext--onwebsite > p:nth-child(2)",
+        "ul:nth-child(3)",
+        ".amazing-feature-item-wrapper:nth-child(1) > .amazing-features-text-wrapper",
+        ".amazing-feature-item-wrapper:nth-child(2) > .amazing-features-text-wrapper",
+        ".amazing-feature-item-wrapper:nth-child(3) > .amazing-features-text-wrapper",
+        ".amazing-feature-upper-wrapper .h1-heading-48px"
+      ]
+    }
+  }
+}
