@@ -1,0 +1,12 @@
+{
+  "name": "Copy.AI",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.copy.ai/terms-of-service",
+      "select": [
+        ".heading-01-hero",
+        ".rich-text"
+      ]
+    }
+  }
+}
