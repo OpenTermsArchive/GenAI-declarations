@@ -1,0 +1,12 @@
+{
+  "name": "Murf.ai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://murf.ai/resources/terms_of_service/",
+      "select": [
+        ".post__header",
+        ".post__entry"
+      ]
+    }
+  }
+}
