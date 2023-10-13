@@ -1,0 +1,14 @@
+{
+  "name": "Rephrase.ai",
+  "documents": {
+    "Human Rights Policy": {
+      "fetch": "https://www.rephrase.ai/ethics",
+      "select": [
+        ".about-hero-wrapper",
+        ".textcontainer--about-us:nth-child(2)",
+        ".textcontainer--about-us:nth-child(1)",
+        ".amazing-feature-section"
+      ]
+    }
+  }
+}
