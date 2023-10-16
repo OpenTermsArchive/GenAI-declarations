@@ -1,5 +1,5 @@
 {
-  "name": "Murf.ai",
+  "name": "Murf",
   "documents": {
     "Privacy Policy": {
       "fetch": "https://murf.ai/resources/gdpr_policy/",
