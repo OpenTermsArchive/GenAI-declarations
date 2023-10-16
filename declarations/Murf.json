@@ -1,5 +1,5 @@
 {
-  "name": "Murf AI",
+  "name": "Murf",
   "documents": {
     "Terms of Service": {
       "fetch": "https://murf.ai/resources/terms_of_service/",
