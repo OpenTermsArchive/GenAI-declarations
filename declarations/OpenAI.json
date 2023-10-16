@@ -24,6 +24,18 @@
         "[aria-hidden=true]"
       ],
       "executeClientScripts": true
+    },
+    "Developer Terms": {
+      "fetch": "https://openai.com/policies/plugin-terms",
+      "select": [
+        "#landings-plugin-terms"
+      ],
+      "remove": [
+        "header",
+        "[aria-hidden=true]",
+        "footer"
+      ],
+      "executeClientScripts": true
     }
   }
 }

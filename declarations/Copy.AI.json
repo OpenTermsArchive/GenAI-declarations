@@ -7,6 +7,13 @@
         ".heading-01-hero",
         ".rich-text"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.copy.ai/privacy-notice",
+      "select": [
+        ".heading-01-hero",
+        ".rich-text-block-4"
+      ]
     }
   }
 }
