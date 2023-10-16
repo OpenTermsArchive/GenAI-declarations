@@ -4,12 +4,14 @@
     "Terms of Service": {
       "fetch": "https://docs.midjourney.com/docs/terms-of-service",
       "select": [
-        "h1",
         ".content_container"
       ],
       "remove": [
         "#lightTheme",
-        "#darkTheme"
+        "#darkTheme",
+        "#ai-article-summary-callout",
+        "#navigation-container",
+        "#right_sidebar"
       ],
       "executeClientScripts": true
     }
