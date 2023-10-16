@@ -1,0 +1,12 @@
+{
+  "name": "Rephrase.ai",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.rephrase.ai/terms-of-service",
+      "select": [
+        ".heading-pageheader",
+        ".policypg"
+      ]
+    }
+  }
+}
