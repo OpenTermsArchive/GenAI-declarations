@@ -1,6 +1,13 @@
 {
   "name": "Rephrase.ai",
   "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.rephrase.ai/privacy-policy",
+      "select": [
+        ".heading-pageheader",
+        ".policypg"
+      ]
+    },
     "Terms of Service": {
       "fetch": "https://www.rephrase.ai/terms-of-service",
       "select": [
