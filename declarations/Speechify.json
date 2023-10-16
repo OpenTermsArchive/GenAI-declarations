@@ -1,0 +1,11 @@
+{
+  "name": "Speechify",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://speechify.com/terms/?landing_url=https%3A%2F%2Fspeechify.com%2Fterms%2F",
+      "select": [
+        ".wrap-section > .container"
+      ]
+    }
+  }
+}
