@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Copilot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot",
+      "select": [
+        "#title-h1",
+        ".MarkdownContent_markdownBody__7_8Gt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Copy.AI",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.copy.ai/terms-of-service",
+      "select": [
+        ".heading-01-hero",
+        ".rich-text"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.copy.ai/privacy-notice",
+      "select": [
+        ".heading-01-hero",
+        ".rich-text-block-4"
+      ]
+    }
+  }
+}
