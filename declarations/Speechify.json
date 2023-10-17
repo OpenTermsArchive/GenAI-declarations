@@ -6,6 +6,15 @@
       "select": [
         ".wrap-section > .container"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://speechify.com/privacy/",
+      "select": [
+        {
+          "startBefore": "#cookiepolicy",
+          "endBefore": "[id=\"6\"]"
+        }
+      ]
     }
   }
 }
