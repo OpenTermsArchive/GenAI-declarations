@@ -22,7 +22,10 @@
       ],
       "remove": [
         "#navigation-container",
-        ".article-action-items:nth-child(2) li"
+        "#lightTheme",
+        "#darkTheme",
+        "#ai-article-summary-callout",
+        "#right_sidebar"
       ],
       "executeClientScripts": true
     }
