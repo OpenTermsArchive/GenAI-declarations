@@ -17,9 +17,15 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://speechify.com/privacy/?landing_url=https%3A%2F%2Fspeechify.com%2Fterms%2F",
+      "fetch": "https://speechify.com/privacy/",
       "select": [
-        ".wrap-section > .container"
+        "main"
+      ],
+      "remove": [
+        {
+          "startBefore": "#cookiepolicy",
+          "endBefore": "[id=\"6\"]"
+        }
       ]
     }
   }
