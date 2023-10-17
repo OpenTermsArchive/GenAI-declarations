@@ -4,10 +4,14 @@
     "Human Rights Policy": {
       "fetch": "https://www.rephrase.ai/ethics",
       "select": [
-        ".about-hero-wrapper",
-        ".textcontainer--about-us:nth-child(2)",
-        ".textcontainer--about-us:nth-child(1)",
-        ".amazing-feature-section"
+        "body"
+      ],
+      "remove": [
+        "[class$=\"footer-section\"]",
+        ".home-navbar",
+        "img",
+        "[style=\"opacity:0\"]",
+        "#consentPopup"
       ]
     }
   }
