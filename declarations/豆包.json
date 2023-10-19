@@ -1,0 +1,11 @@
+{
+  "name": "豆包",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://www.doubao.com/legal/privacy",
+      "select": [
+        ".draft-container"
+      ]
+    }
+  }
+}
