@@ -1,0 +1,14 @@
+{
+  "name": "Spotify DJ",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
+      "select": [
+        ".container"
+      ],
+      "remove": [
+        ".nav-sub > ul"
+      ]
+    }
+  }
+}
