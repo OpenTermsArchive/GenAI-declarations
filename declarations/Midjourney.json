@@ -14,6 +14,20 @@
         "#right_sidebar"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://docs.midjourney.com/docs/privacy-policy",
+      "select": [
+        ".content_container"
+      ],
+      "remove": [
+        "#navigation-container",
+        "#lightTheme",
+        "#darkTheme",
+        "#ai-article-summary-callout",
+        "#right_sidebar"
+      ],
+      "executeClientScripts": true
     }
   }
 }

@@ -12,6 +12,12 @@
       "select": [
         ".resources-block-inner-wrapper"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://scribehow.com/legal/cookies",
+      "select": [
+        ".legal-container"
+      ]
     }
   }
 }
