@@ -36,6 +36,15 @@
         "footer"
       ],
       "executeClientScripts": true
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://openai.com/policies/usage-policies",
+      "select": [
+        ".f-display-2",
+        "#landings-usage-policies > .mt-spacing-7",
+        "#content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
