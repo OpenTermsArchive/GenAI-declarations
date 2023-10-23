@@ -28,6 +28,13 @@
         "#right_sidebar"
       ],
       "executeClientScripts": true
+    },
+    "Community Guidelines": {
+      "fetch": "https://docs.midjourney.com/docs/community-guidelines",
+      "select": [
+        "h1",
+        ".content_block_text"
+      ]
     }
   }
 }
