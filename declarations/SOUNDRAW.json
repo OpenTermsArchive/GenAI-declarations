@@ -5,7 +5,7 @@
       "fetch": "https://soundraw.io/privacy",
       "select": [
         ".row"
-        ]
+      ]
     },
     "Terms of Service": {
       "fetch": "https://soundraw.io/terms",
