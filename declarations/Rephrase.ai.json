@@ -21,10 +21,6 @@
         ".heading-pageheader",
         ".iub_content"
       ],
-      "remove": [
-        ".iub_footer > p:nth-child(2)",
-        ".iub_footer > p:nth-child(3)"
-      ],
       "executeClientScripts": true
     }
   }
