@@ -7,6 +7,12 @@
         ".title-64",
         ".section > .legal"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.wordtune.com/privacy-policy",
+      "select": [
+        ".main"
+      ]
     }
   }
 }
