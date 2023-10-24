@@ -32,8 +32,14 @@
     "Community Guidelines": {
       "fetch": "https://docs.midjourney.com/docs/community-guidelines",
       "select": [
-        "h1",
-        ".content_block_text"
+        ".content_container"
+      ],
+      "remove": [
+        "#navigation-container",
+        "#lightTheme",
+        "#darkTheme",
+        "#ai-article-summary-callout",
+        "#right_sidebar"
       ]
     }
   }
