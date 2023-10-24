@@ -2,10 +2,28 @@
   "name": "GitHub Copilot",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#github-copilot",
-      "select": [
-        "#title-h1",
-        ".MarkdownContent_markdownBody__7_8Gt"
+      "combine": [
+        {
+          "fetch": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+          "select": [
+            "#title-h1",
+            ".MarkdownContent_markdownBody__7_8Gt"
+          ]
+        },
+        {
+          "fetch": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+          "select": [
+            "#title-h1",
+            {
+              "startBefore": ".markdown-body",
+              "endBefore": ".markdown-body > h2:first-of-type"
+            },
+            {
+              "startBefore": "#github-copilot",
+              "endBefore": "#github-copilot ~ h2"
+            }
+          ]
+        }
       ]
     }
   }
