@@ -11,6 +11,11 @@
         "#version-6491fde8ba725b413e68b779-locale-en-us > .row"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://legal.jasper.ai/#privacy",
+      "select": "#contract-id-271312",
+      "executeClientScripts": true
     }
   }
 }
