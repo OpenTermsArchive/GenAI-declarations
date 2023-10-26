@@ -15,6 +15,7 @@
     "Privacy Policy": {
       "fetch": "https://legal.jasper.ai/#privacy",
       "select": "#contract-id-271312",
+      "remove": ".version-container:not(:first-child)",
       "executeClientScripts": true
     },
     "Brand Guidelines": {
