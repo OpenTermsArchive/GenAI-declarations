@@ -9,15 +9,12 @@
       ],
       "remove": [
         "#version-6491fde8ba725b413e68b779-locale-en-us > .row"
-        ],
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://legal.jasper.ai/?_gl=1*gxuhoc*_gcl_au*NDk2Nzk4NzQ1LjE2OTU3NTE4OTI.*_ga*MTU4NTQ1MzEyNy4xNjk1NzUxODk2*_ga_D4P3CS8W5P*MTY5NTc1MTg5Ni4xLjEuMTY5NTc1MTkyNy4yOS4wLjA.#privacy",
-      "select": [
-        "#contract-id-271312 > .contract-header",
-        "#version-646bf007096cf4cb4886fbda-locale-en-us"
-      ],
+      "fetch": "https://legal.jasper.ai/#privacy",
+      "select": "#contract-id-271312",
       "executeClientScripts": true
     }
   }
