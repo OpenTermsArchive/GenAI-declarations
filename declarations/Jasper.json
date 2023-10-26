@@ -4,19 +4,28 @@
     "Terms of Service": {
       "fetch": "https://legal.jasper.ai/#eula",
       "select": "#contract-id-273253",
-      "remove": ".version-container:not(:first-child)",
+      "remove": [
+        ".version-container:not(:first-child)",
+        ".select-version"
+      ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://legal.jasper.ai/#privacy",
       "select": "#contract-id-271312",
-      "remove": ".version-container:not(:first-child)",
+      "remove": [
+        ".version-container:not(:first-child)",
+        ".select-version"
+      ],
       "executeClientScripts": true
     },
     "Brand Guidelines": {
       "fetch": "https://legal.jasper.ai/#platform-guidelines",
       "select": "#contract-id-273262",
-      "remove": ".version-container:not(:first-child)",
+      "remove": [
+        ".version-container:not(:first-child)",
+        ".select-version"
+      ],
       "executeClientScripts": true
     }
   }
