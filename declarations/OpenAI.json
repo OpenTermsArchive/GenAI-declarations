@@ -40,9 +40,12 @@
     "Acceptable Use Policy": {
       "fetch": "https://openai.com/policies/usage-policies",
       "select": [
-        ".f-display-2",
-        "#landings-usage-policies > .mt-spacing-7",
-        "#content"
+        "#landings-usage-policies"
+  ],
+      "remove": [
+        "header",
+        "[aria-hidden=true]",
+        "footer"
       ],
       "executeClientScripts": true
     }
