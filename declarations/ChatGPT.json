@@ -1,0 +1,22 @@
+{
+  "name": "ChatGPT",
+  "documents": {
+    "Data Processor Agreement": {
+      "fetch": "https://openai.com/policies/data-processing-addendum",
+      "select": [
+        "#landings-data-processing-addendum"
+      ],
+      "remove": [
+        ".ml-16",
+        ".pt-spacing-7 > .container > .cols-container",
+        ".top-\\[50\\%\\]",
+        ".fixed .cols-container",
+        ".md\\:w-5-cols",
+        ".z-\\[60\\]",
+        ".outline-none > .a-icon--logo-text",
+        ".align-baseline",
+        ".pt-spacing-7"
+      ]
+    }
+  }
+}
