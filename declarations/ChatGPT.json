@@ -1,0 +1,20 @@
+{
+  "name": "ChatGPT",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://openai.com/policies/service-terms",
+      "select": [
+        "#landings-service-terms"
+      ],
+      "remove": [
+        ".top-\\[50\\%\\]",
+        ".align-baseline",
+        ".z-\\[60\\]",
+        ".md\\:w-5-cols",
+        ".z-\\[60\\]",
+        ".pt-spacing-7",
+        ".outline-none > .a-icon--logo-text"
+      ]
+    }
+  }
+}
