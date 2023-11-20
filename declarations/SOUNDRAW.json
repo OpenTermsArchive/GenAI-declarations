@@ -1,6 +1,12 @@
 {
   "name": "SOUNDRAW",
   "documents": {
+    "Privacy Policy": {
+      "fetch": "https://soundraw.io/privacy",
+      "select": [
+        ".row"
+      ]
+    },
     "Terms of Service": {
       "fetch": "https://soundraw.io/terms",
       "select": [

@@ -14,6 +14,14 @@
         ".heading-pageheader",
         ".policypg"
       ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.rephrase.ai/cookie-policy",
+      "select": [
+        ".heading-pageheader",
+        ".iub_content"
+      ],
+      "executeClientScripts": true
     }
   }
 }
