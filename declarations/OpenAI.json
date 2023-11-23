@@ -7,11 +7,9 @@
         "#landings-service-terms"
       ],
       "remove": [
-        "header",
-        "[aria-hidden=true]",
-        "footer"
-      ],
-      "executeClientScripts": true
+        ".z-\\[60\\]",
+        ".pt-spacing-7"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://openai.com/policies/privacy-policy",
