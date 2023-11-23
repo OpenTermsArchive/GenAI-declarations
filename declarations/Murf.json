@@ -7,6 +7,20 @@
         ".post__header",
         ".post__entry"
       ]
+    },
+    "Privacy Policy": {
+      "select": [
+        ".post__header",
+        ".post__entry"
+      ],
+      "combine": [
+        {
+          "fetch": "https://murf.ai/resources/privacy_policy/"
+        },
+        {
+          "fetch": "https://murf.ai/resources/gdpr_policy/"
+        }
+      ]
     }
   }
 }
