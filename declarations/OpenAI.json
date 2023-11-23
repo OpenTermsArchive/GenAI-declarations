@@ -48,6 +48,18 @@
         "footer"
       ],
       "executeClientScripts": true
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://openai.com/policies/data-processing-addendum",
+      "select": [
+        "#landings-data-processing-addendum"
+      ],
+      "remove": [
+        "header",
+        "[aria-hidden=true]",
+        "footer"
+      ],
+      "executeClientScripts": true
     }
   }
 }
