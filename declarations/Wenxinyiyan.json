@@ -11,6 +11,21 @@
         ".mod-footer"
       ],
       "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.baidu.com/policy",
+      "select": [
+        ".Policy"
+      ],
+      "remove": [
+        ".apps",
+        ".section:nth-child(4) > .title",
+        ".left",
+        ".pb-title",
+        ".pb-title-en",
+        ".pb-des"
+      ],
+      "executeClientScripts": true
     }
   }
 }
