@@ -60,6 +60,18 @@
         "footer"
       ],
       "executeClientScripts": true
+    },
+    "Platform to Business Notice": {
+      "fetch": "https://openai.com/policies/business-terms",
+      "select": [
+        "#landings-business-terms"
+      ],
+      "remove": [
+        "header",
+        "[aria-hidden=true]",
+        "footer"
+      ],
+      "executeClientScripts": true
     }
   }
 }
