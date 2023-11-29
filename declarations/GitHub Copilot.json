@@ -29,8 +29,7 @@
     "Privacy Policy": {
       "fetch": "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement",
       "select": [
-        "#title-h1",
-        ".MarkdownContent_markdownBody__7_8Gt"
+        ".ArticleGridLayout_containerBox__lLLio"
       ]
     }
   }
