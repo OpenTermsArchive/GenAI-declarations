@@ -7,7 +7,8 @@
         "body"
       ],
       "remove": [
-        ".mod-header"
+        ".mod-header",
+        ".mod-footer"
       ],
       "executeClientScripts": true
     }
