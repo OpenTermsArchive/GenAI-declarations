@@ -1,0 +1,17 @@
+{
+  "name": "Gemini",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://policies.google.com/terms",
+      "select": [
+        ".xXnO1d:nth-child(1) > .nrAB0c",
+        ".xXnO1d:nth-child(3) > .nrAB0c",
+        ".xXnO1d:nth-child(4) > .nrAB0c",
+        ".xXnO1d:nth-child(5) > .nrAB0c",
+        ".xXnO1d:nth-child(6) > .nrAB0c",
+        ".xXnO1d:nth-child(7) > .nrAB0c",
+        "div:nth-child(8) > .nrAB0c"
+      ]
+    }
+  }
+}
