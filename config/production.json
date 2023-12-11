@@ -43,5 +43,8 @@
   "dataset": {
     "title": "GenAI",
     "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
+  },
+  "api": {
+    "port": 3000
   }
 }
