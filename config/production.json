@@ -32,13 +32,20 @@
       "updateTemplateId": 0
     }
   },
-  "tracker": {
+  "reporter": {
     "githubIssues": {
-      "repository": "OpenTermsArchive/GenAI-declarations"
+      "repositories": {
+        "declarations": "OpenTermsArchive/GenAI-declarations",
+        "versions": "OpenTermsArchive/GenAI-versions",
+        "snapshots": "OpenTermsArchive/GenAI-snapshots"
+      }
     }
   },
   "dataset": {
     "title": "GenAI",
     "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
+  },
+  "api": {
+    "port": 3000
   }
 }
