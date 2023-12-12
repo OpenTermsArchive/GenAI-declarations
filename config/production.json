@@ -36,7 +36,8 @@
     "githubIssues": {
       "repositories": {
         "declarations": "OpenTermsArchive/GenAI-declarations",
-        "versions": "OpenTermsArchive/GenAI-versions"
+        "versions": "OpenTermsArchive/GenAI-versions",
+        "snapshots": "OpenTermsArchive/GenAI-snapshots"
       }
     }
   },
