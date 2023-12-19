@@ -6,6 +6,12 @@
       "select": [
         ".draft-container"
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.doubao.com/legal/privacy",
+      "select": [
+        ".draft-container"
+      ]
     }
   }
 }
