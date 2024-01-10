@@ -36,6 +36,18 @@
         "footer"
       ],
       "executeClientScripts": true
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://openai.com/policies/usage-policies",
+      "select": [
+        "#landings-usage-policies"
+      ],
+      "remove": [
+        "header",
+        "[aria-hidden=true]",
+        "footer"
+      ],
+      "executeClientScripts": true
     }
   }
 }
