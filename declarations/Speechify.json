@@ -15,6 +15,18 @@
           "endBefore": "[id=\"6\"]"
         }
       ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://speechify.com/privacy/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        {
+          "startBefore": "#cookiepolicy",
+          "endBefore": "[id=\"6\"]"
+        }
+      ]
     }
   }
 }
