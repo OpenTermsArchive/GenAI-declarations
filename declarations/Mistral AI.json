@@ -1,0 +1,29 @@
+{
+  "name": "Mistral AI",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mistral.ai/terms-of-use/",
+      "select": [
+        ".markdown"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://mistral.ai/privacy-policy/",
+      "select": [
+        ".markdown"
+      ]
+    },
+    "Developer Terms": {
+      "fetch": "https://mistral.ai/terms-of-service/",
+      "select": [
+        ".markdown"
+      ]
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://mistral.ai/data-processing-agreement/",
+      "select": [
+        ".markdown"
+      ]
+    }
+  }
+}
