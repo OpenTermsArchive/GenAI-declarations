@@ -1,0 +1,19 @@
+{
+  "name": "Microsoft Copilot",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
+      "select": [
+        ".gi_lgl_tos",
+        ".gi_cp"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.microsoft.com/en-us/privacystatement",
+      "select": [
+        "#MPS_ShortDescription",
+        ".div_content"
+      ]
+    }
+  }
+}
