@@ -21,10 +21,12 @@
     },
     "Brand Guidelines": {
       "fetch": "https://legal.jasper.ai/#platform-guidelines",
-      "select": "#contract-id-273262",
+      "select": [
+        "div[data-key=\"terms\"] > [id^=\"contract-versions-\"] > [id^=\"contract-id-269077-version-\"]:first-child"
+      ],
       "remove": [
-        ".version-container:not(:first-child)",
-        ".select-version"
+        ".version-download-link ",
+        ".table-of-contents"
       ],
       "executeClientScripts": true
     },
