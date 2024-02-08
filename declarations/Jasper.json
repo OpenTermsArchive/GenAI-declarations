@@ -2,7 +2,7 @@
   "name": "Jasper",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://legal.jasper.ai/#eula",
+      "fetch": "https://legal.jasper.ai/#terms",
       "select": "#contract-body",
       "remove": [
         ".version-download-link",
