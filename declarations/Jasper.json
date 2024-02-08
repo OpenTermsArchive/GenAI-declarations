@@ -28,7 +28,7 @@
         ".version-download-link ",
         ".table-of-contents",
         "[style=\"display: none;\"]",
-        ".contract-header"
+        ".select-version"
       ],
       "executeClientScripts": true
     },
