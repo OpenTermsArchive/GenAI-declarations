@@ -19,15 +19,6 @@
       ],
       "executeClientScripts": true
     },
-    "Brand Guidelines": {
-      "fetch": "https://legal.jasper.ai/#platform-guidelines",
-      "select": "#contract-id-273262",
-      "remove": [
-        ".version-container:not(:first-child)",
-        ".select-version"
-      ],
-      "executeClientScripts": true
-    },
     "Vulnerability Disclosure Policy": {
       "fetch": "https://legal.jasper.ai/#security-requirements",
       "select": "#contract-id-305995",

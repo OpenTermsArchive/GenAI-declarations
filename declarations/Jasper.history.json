@@ -1,0 +1,14 @@
+{
+  "Brand Guidelines": [
+    {
+      "fetch": "https://legal.jasper.ai/#platform-guidelines",
+      "select": "#contract-id-273262",
+      "remove": [
+        ".version-container:not(:first-child)",
+        ".select-version"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2024-01-30T00:30:15Z"
+    }
+  ]
+}
