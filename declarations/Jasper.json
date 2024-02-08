@@ -22,7 +22,7 @@
     "Brand Guidelines": {
       "fetch": "https://legal.jasper.ai/#platform-guidelines",
       "select": [
-        "div[data-key=\"terms\"] > [id^=\"contract-versions-\"] > [id^=\"contract-id-269077-version-\"]:first-child"
+        "div[data-key=\"terms\"] > [id^=\"contract-versions-\"] > [id^=\"contract-id-\"]:first-child"
       ],
       "remove": [
         ".version-download-link ",
