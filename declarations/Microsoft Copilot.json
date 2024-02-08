@@ -4,12 +4,14 @@
     "Terms of Service": {
       "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
       "select": [
-        ".gi_lgl_tos",
-        ".gi_cp"
-      ]
+        "#page_content"
+      ],
+      "remove": [
+        ".cdx_mkt_brand"
+      ],
     },
     "Privacy Policy": {
-      "fetch": "https://privacy.microsoft.com/en-us/privacystatement",
+      "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
       "select": [
         "#MPS_ShortDescription",
         ".div_content"
