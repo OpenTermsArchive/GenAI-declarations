@@ -13,8 +13,18 @@
     "Privacy Policy": {
       "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
       "select": [
-        "#MPS_ShortDescription",
-        ".div_content"
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        ".expand_collapse",
+        ".div_print",
+        ".nav_content",
+        ".LearnMoreNavigation",
+        ".TopNavigation",
+        ".CollectingYourInfoRightNav",
+        ".gcc_cookies",
+        "#dvGroupModules",
+        "#dvServicesAgreement"
       ]
     }
   }
