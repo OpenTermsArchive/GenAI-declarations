@@ -2,28 +2,34 @@
   "name": "Jasper",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://legal.jasper.ai/#eula",
-      "select": "#contract-id-273253",
+      "fetch": "https://legal.jasper.ai/#terms",
+      "select": "#contract-body",
       "remove": [
-        ".version-container:not(:first-child)",
+        ".version-download-link",
+        ".table-of-contents",
+        "[style=\"display: none;\"]",
         ".select-version"
       ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://legal.jasper.ai/#privacy",
-      "select": "#contract-id-271312",
+      "select": "#contract-body",
       "remove": [
-        ".version-container:not(:first-child)",
+        ".version-download-link",
+        ".table-of-contents",
+        "[style=\"display: none;\"]",
         ".select-version"
       ],
       "executeClientScripts": true
     },
     "Vulnerability Disclosure Policy": {
       "fetch": "https://legal.jasper.ai/#security-requirements",
-      "select": "#contract-id-305995",
+      "select": "#contract-body",
       "remove": [
-        ".version-container:not(:first-child)",
+        ".version-download-link",
+        ".table-of-contents",
+        "[style=\"display: none;\"]",
         ".select-version"
       ],
       "executeClientScripts": true
