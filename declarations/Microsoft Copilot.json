@@ -8,7 +8,8 @@
       ],
       "remove": [
         ".cdx_mkt_brand"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
