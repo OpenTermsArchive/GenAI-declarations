@@ -1,5 +1,5 @@
 {
-  "name": "OpenAI",
+  "name": "ChatGPT",
   "documents": {
     "Terms of Service": {
       "fetch": "https://openai.com/policies/terms-of-use",
