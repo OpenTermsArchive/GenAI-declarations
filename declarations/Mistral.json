@@ -1,0 +1,11 @@
+{
+  "name": "Mistral",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://mistral.ai/terms-of-use/",
+      "select": [
+        ".content-wrapper"
+      ]
+    }
+  }
+}
