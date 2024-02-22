@@ -2,7 +2,7 @@
   "name": "Mistral",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://mistral.ai/terms-of-use/",
+      "fetch": "https://mistral.ai/terms-of-service/",
       "select": [
         ".content-wrapper"
       ]
