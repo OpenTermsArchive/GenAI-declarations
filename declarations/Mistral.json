@@ -1,0 +1,11 @@
+{
+  "name": "Mistral",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://mistral.ai/privacy-policy/",
+      "select": [
+        ".content-wrapper"
+      ]
+    }
+  }
+}
