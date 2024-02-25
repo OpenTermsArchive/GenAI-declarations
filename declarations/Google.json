@@ -1,0 +1,11 @@
+{
+  "name": "Google",
+  "documents": {
+    "Acceptable Use Policy": {
+      "fetch": "https://policies.google.com/terms/generative-ai/use-policy?hl=en-GB",
+      "select": [
+        ".nrAB0c"
+      ]
+    }
+  }
+}
