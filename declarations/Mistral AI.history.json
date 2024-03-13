@@ -1,0 +1,38 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://mistral.ai/terms-of-use/",
+      "select": [
+        ".markdown"
+      ],
+      "validUntil": "2024-02-08T12:30:35Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://mistral.ai/privacy-policy/",
+      "select": [
+        ".markdown"
+      ],
+      "validUntil": "2024-02-26T18:30:56Z"
+    }
+  ],
+  "Developer Terms": [
+    {
+      "fetch": "https://mistral.ai/terms-of-service/",
+      "select": [
+        ".markdown"
+      ],
+      "validUntil": "2024-02-08T12:30:36Z"
+    }
+  ],
+  "Data Processor Agreement": [
+    {
+      "fetch": "https://mistral.ai/data-processing-agreement/",
+      "select": [
+        ".markdown"
+      ],
+      "validUntil": "2024-02-08T12:30:37Z"
+    }
+  ]
+}
