@@ -8,5 +8,15 @@
       ],
       "validUntil": "2024-03-19T00:00:00Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://x.ai/legal/privacy-policy/",
+      "select": [
+        ".animated",
+        ".page > .container"
+      ],
+      "validUntil": "2024-03-19T00:00:00Z"
+    }
   ]
 }
