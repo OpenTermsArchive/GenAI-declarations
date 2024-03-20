@@ -2,27 +2,33 @@
   "name": "Mistral AI",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://mistral.ai/terms-of-use/",
+      "fetch": "https://mistral.ai/terms/",
       "select": [
-        ".markdown"
+        "#terms-of-use"
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://mistral.ai/privacy-policy/",
+      "fetch": "https://mistral.ai/terms/",
       "select": [
-        ".markdown"
+        "#privacy-policy"
       ]
     },
     "Developer Terms": {
-      "fetch": "https://mistral.ai/terms-of-service/",
+      "fetch": "https://mistral.ai/terms/",
       "select": [
-        ".markdown"
+        "#terms-of-service-la-plateforme"
       ]
     },
     "Data Processor Agreement": {
-      "fetch": "https://mistral.ai/data-processing-agreement/",
+      "fetch": "https://mistral.ai/terms/",
       "select": [
-        ".markdown"
+        "#data-processing-agreement"
+      ]
+    },
+    "Imprint": {
+      "fetch": "https://mistral.ai/legal/",
+      "select": [
+        "section"
       ]
     }
   }
