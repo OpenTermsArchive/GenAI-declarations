@@ -1,0 +1,14 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
+      "select": [
+        "#page_content"
+      ],
+      "remove": [
+        ".cdx_mkt_brand"
+      ],
+      "validUntil": "2024-02-09T12:30:18Z"
+    }
+  ]
+}
