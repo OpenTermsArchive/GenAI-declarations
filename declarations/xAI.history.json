@@ -1,0 +1,12 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://x.ai/legal/terms-of-service/",
+      "select": [
+        ".animated",
+        ".page > .container"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
