@@ -4,15 +4,13 @@
     "Terms of Service": {
       "fetch": "https://x.ai/legal/terms-of-service/",
       "select": [
-        ".animated",
-        ".page > .container"
+        "main"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://x.ai/legal/privacy-policy/",
       "select": [
-        ".animated",
-        ".page > .container"
+        "main"
       ]
     }
   }
