@@ -1,5 +1,5 @@
 {
-  "name": "Google",
+  "name": "Google Generative AI Services",
   "documents": {
     "Terms of Service": {
       "fetch": "https://policies.google.com/terms/generative-ai?hl=en-GB",
