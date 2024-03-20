@@ -10,8 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://x.ai/legal/privacy-policy/",
       "select": [
-        ".animated",
-        ".page > .container"
+        "main"
       ]
     }
   }
