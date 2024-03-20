@@ -24,6 +24,12 @@
       "select": [
         "#data-processing-agreement"
       ]
+    },
+    "Imprint": {
+      "fetch": "https://mistral.ai/legal/",
+      "select": [
+        "section"
+      ]
     }
   }
 }
