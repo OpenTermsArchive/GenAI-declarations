@@ -16,6 +16,12 @@
           "fetch": "https://policies.google.com/terms/generative-ai?hl=en-GB&gl=IE"
         }
       ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://policies.google.com/terms/generative-ai/use-policy?hl=en-GB&gl=IE",
+      "select": [
+        "[role=\"article\"]"
+      ]
     }
   }
 }
