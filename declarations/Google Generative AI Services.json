@@ -2,9 +2,19 @@
   "name": "Google Generative AI Services",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://policies.google.com/terms/generative-ai?hl=en-GB",
       "select": [
         "[role=\"article\"]"
+      ],
+      "remove": [
+        "img[src$='.svg']"
+      ],
+      "combine": [
+        {
+          "fetch": "https://policies.google.com/terms?hl=en-GB&gl=IE"
+        },
+        {
+          "fetch": "https://policies.google.com/terms/generative-ai?hl=en-GB&gl=IE"
+        }
       ]
     }
   }
