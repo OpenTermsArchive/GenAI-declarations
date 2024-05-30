@@ -11,8 +11,8 @@
       "fetch": "https://speechify.com/privacy/",
       "select": [
         {
-          "startBefore": "#cookiepolicy",
-          "endBefore": "[id=\"6\"]"
+          "startBefore": "#cookie-policy",
+          "endBefore": "#contact-us"
         }
       ]
     },
