@@ -2,10 +2,8 @@
   "name": "Speechify",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://speechify.com/terms/?landing_url=https%3A%2F%2Fspeechify.com%2Fterms%2F",
-      "select": [
-        ".wrap-section > .container"
-      ]
+      "fetch": "https://speechify.com/terms",
+      "select": "main"
     },
     "Trackers Policy": {
       "fetch": "https://speechify.com/privacy/",
@@ -18,15 +16,10 @@
     },
     "Privacy Policy": {
       "fetch": "https://speechify.com/privacy/",
-      "select": [
-        "main"
-      ],
-      "remove": [
-        {
-          "startBefore": "#cookiepolicy",
-          "endBefore": "[id=\"6\"]"
-        }
-      ]
+      "select": {
+        "startBefore": "main",
+        "endBefore": "#cookie-policy"
+      }
     }
   }
 }
