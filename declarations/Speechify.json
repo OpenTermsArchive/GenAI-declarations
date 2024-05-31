@@ -12,7 +12,7 @@
       "select": [
         {
           "startBefore": "#cookie-policy",
-          "endBefore": "#contact-us"
+          "endAfter": "main"
         }
       ]
     },
