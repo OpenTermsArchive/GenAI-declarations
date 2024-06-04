@@ -2,74 +2,62 @@
   "name": "DALL·E",
   "documents": {
     "Terms of Service": {
-      "fetch": "https://openai.com/policies/terms-of-use",
+      "fetch": "https://openai.com/policies/eu-terms-of-use/",
       "select": [
-        "#landings-terms-of-use"
+        "main"
       ],
       "remove": [
-        "header",
-        "[aria-hidden=true]",
-        "footer"
+        "select[name=\"Locale Select\"]"
       ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://openai.com/policies/privacy-policy",
+      "fetch": "https://openai.com/policies/eu-privacy-policy/",
       "select": [
-        "#landings-privacy-policy"
+        "main"
       ],
       "remove": [
-        "header",
-        "footer",
-        "[aria-hidden=true]"
+        "select[name=\"Locale Select\"]"
       ],
       "executeClientScripts": true
     },
     "Developer Terms": {
       "fetch": "https://openai.com/policies/plugin-terms",
       "select": [
-        "#landings-plugin-terms"
+        "main"
       ],
       "remove": [
-        "header",
-        "[aria-hidden=true]",
-        "footer"
+        "select[name=\"Locale Select\"]"
       ],
       "executeClientScripts": true
     },
     "Acceptable Use Policy": {
       "fetch": "https://openai.com/policies/usage-policies",
       "select": [
-        "#landings-usage-policies"
+        "main"
       ],
       "remove": [
-        "header",
-        "[aria-hidden=true]",
-        "footer"
+        "select[name=\"Locale Select\"]"
       ],
       "executeClientScripts": true
     },
     "Data Processor Agreement": {
       "fetch": "https://openai.com/policies/data-processing-addendum",
       "select": [
-        "#landings-data-processing-addendum"
+        "main"
       ],
       "remove": [
-        "header",
-        "[aria-hidden=true]",
-        "footer"
+        "select[name=\"Locale Select\"]"
       ],
       "executeClientScripts": true
     },
     "Platform to Business Notice": {
       "fetch": "https://openai.com/policies/business-terms",
       "select": [
-        "#landings-business-terms"
+        "main"
       ],
       "remove": [
-        "header",
-        "[aria-hidden=true]",
-        "footer"
+        "select[name=\"Locale Select\"]"
       ],
       "executeClientScripts": true
     }
