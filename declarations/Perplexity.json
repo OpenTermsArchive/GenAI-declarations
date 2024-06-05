@@ -1,0 +1,29 @@
+{
+  "name": "Perplexity",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://www.perplexity.ai/hub/legal/terms-of-service",
+      "select": [
+        "[name=Post]"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.perplexity.ai/hub/legal/privacy-policy",
+      "select": [
+        "[name=Post]"
+      ]
+    },
+    "API Terms of Service": {
+      "fetch": "https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service",
+      "select": [
+        "[name=Post]"
+      ]
+    },
+    "PPLX-API Privacy Policy": {
+      "fetch": "https://www.perplexity.ai/hub/legal/perplexity-ai-api-privacy",
+      "select": [
+        "[name=Post]"
+      ]
+    }
+  }
+}
