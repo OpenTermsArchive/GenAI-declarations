@@ -5,25 +5,29 @@
       "fetch": "https://www.perplexity.ai/hub/legal/terms-of-service",
       "select": [
         "[name=Post]"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Privacy Policy": {
       "fetch": "https://www.perplexity.ai/hub/legal/privacy-policy",
       "select": [
         "[name=Post]"
-      ]
+      ],
+      "executeClientScripts": true
     },
-    "API Terms of Service": {
+    "Developer Terms": {
       "fetch": "https://www.perplexity.ai/hub/legal/perplexity-api-terms-of-service",
       "select": [
         "[name=Post]"
-      ]
+      ],
+      "executeClientScripts": true
     },
-    "PPLX-API Privacy Policy": {
+    "Business Privacy Policy": {
       "fetch": "https://www.perplexity.ai/hub/legal/perplexity-ai-api-privacy",
       "select": [
         "[name=Post]"
-      ]
+      ],
+      "executeClientScripts": true
     }
   }
 }
