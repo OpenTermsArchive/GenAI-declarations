@@ -21,13 +21,6 @@
         "[name=Post]"
       ],
       "executeClientScripts": true
-    },
-    "Business Privacy Policy": {
-      "fetch": "https://www.perplexity.ai/hub/legal/perplexity-ai-api-privacy",
-      "select": [
-        "[name=Post]"
-      ],
-      "executeClientScripts": true
     }
   }
 }
