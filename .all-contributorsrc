@@ -1,11 +1,22 @@
 {
-  "projectName": "genai-declarations",
+  "projectName": "GenAI-declarations",
   "projectOwner": "OpenTermsArchive",
   "files": [
     ".all-contributors.md"
   ],
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "PierreMesure",
+      "name": "Pierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7223028?v=4",
+      "profile": "https://github.com/PierreMesure",
+      "contributions": [
+        "data"
+      ]
+    }
+  ],
   "repoType": "github",
   "commitConvention": "none",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "commitType": "docs"
 }
