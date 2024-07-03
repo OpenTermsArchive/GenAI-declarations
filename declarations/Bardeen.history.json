@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.bardeen.ai/privacy-policy",
+      "select": [
+        ".content-text"
+      ],
+      "validUntil": "to-be-determined"
+    }
+  ]
+}
