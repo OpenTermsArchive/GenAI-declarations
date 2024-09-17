@@ -17,6 +17,13 @@
         ".page > .container"
       ],
       "validUntil": "2024-03-19T00:00:00Z"
+    },
+    {
+      "fetch": "https://x.ai/legal/privacy-policy/",
+      "select": [
+        "main"
+      ],
+      "validUntil": "to-be-determined"
     }
   ]
 }
