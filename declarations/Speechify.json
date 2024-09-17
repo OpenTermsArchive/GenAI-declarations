@@ -7,10 +7,7 @@
     },
     "Privacy Policy": {
       "fetch": "https://speechify.com/privacy/",
-      "select": {
-        "startBefore": "main",
-        "endBefore": "#cookie-policy"
-      }
+      "select": "main"
     }
   }
 }
