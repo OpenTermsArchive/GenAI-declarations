@@ -10,6 +10,7 @@
     "Privacy Policy": {
       "fetch": "https://x.ai/legal/privacy-policy/",
       "select": [
+        "[class^=\"teaser_teaser\"]",
         "main"
       ]
     }
