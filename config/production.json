@@ -1,51 +1,49 @@
 {
-  "name": "GenAI",
-  "services": {
-    "repository": "https://github.com/OpenTermsArchive/GenAI-declarations.git",
-    "declarationsPath": "./declarations"
-  },
-  "recorder": {
-    "versions": {
-      "storage": {
-        "git": {
-          "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/GenAI-snapshots/commit/%SNAPSHOT_ID",
-          "repository": "git@github.com:OpenTermsArchive/GenAI-versions.git",
-          "path": "./data/versions"
+  "@opentermsarchive/engine": {
+    "recorder": {
+      "versions": {
+        "storage": {
+          "git": {
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/GenAI-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/GenAI-versions.git",
+            "path": "./data/versions"
+          }
+        }
+      },
+      "snapshots": {
+        "storage": {
+          "git": {
+            "repository": "git@github.com:OpenTermsArchive/GenAI-snapshots.git",
+            "path": "./data/snapshots"
+          }
         }
       }
     },
-    "snapshots": {
-      "storage": {
-        "git": {
-          "repository": "git@github.com:OpenTermsArchive/GenAI-snapshots.git",
-          "path": "./data/snapshots"
+    "fetcher": {
+      "language": "en"
+    },
+    "notifier": {
+      "sendInBlue": {
+        "updatesListId": 0,
+        "updateTemplateId": 0
+      }
+    },
+    "reporter": {
+      "githubIssues": {
+        "repositories": {
+          "declarations": "OpenTermsArchive/GenAI-declarations",
+          "versions": "OpenTermsArchive/GenAI-versions",
+          "snapshots": "OpenTermsArchive/GenAI-snapshots"
         }
       }
+    },
+    "dataset": {
+      "title": "GenAI",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
+    },
+    "collection-api": {
+      "port": 3000,
+      "basePath": "/collection-api"
     }
-  },
-  "fetcher": {
-    "language": "en"
-  },
-  "notifier": {
-    "sendInBlue": {
-      "updatesListId": 0,
-      "updateTemplateId": 0
-    }
-  },
-  "reporter": {
-    "githubIssues": {
-      "repositories": {
-        "declarations": "OpenTermsArchive/GenAI-declarations",
-        "versions": "OpenTermsArchive/GenAI-versions",
-        "snapshots": "OpenTermsArchive/GenAI-snapshots"
-      }
-    }
-  },
-  "dataset": {
-    "title": "GenAI",
-    "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
-  },
-  "api": {
-    "port": 3000
   }
 }
