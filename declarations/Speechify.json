@@ -5,15 +5,6 @@
       "fetch": "https://speechify.com/terms",
       "select": "main"
     },
-    "Trackers Policy": {
-      "fetch": "https://speechify.com/privacy/",
-      "select": [
-        {
-          "startBefore": "#cookie-policy",
-          "endAfter": "main"
-        }
-      ]
-    },
     "Privacy Policy": {
       "fetch": "https://speechify.com/privacy/",
       "select": {
