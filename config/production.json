@@ -41,6 +41,9 @@
       "title": "GenAI",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/GenAI-versions"
     },
+    "logger": {
+      "timestampPrefix": false
+    },
     "collection-api": {
       "port": 3000,
       "basePath": "/collection-api"
