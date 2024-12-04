@@ -1,0 +1,69 @@
+id: genai
+name: Generative AI
+tagline: Most popular generative AI services
+description: |
+  The generative AI collection tracks terms of the most popular generative AI services that fall under the European Union jurisdiction and are written in English.
+  
+  It's aims to engage the analysis of terms changes but also to analyze the evolving regulatory landscape of generative AI services and reflect on compliance assessment.
+  
+  It is maintained by the [Sciences Po Law School Clinic's](https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/) for the project "Artifical Intelligence (AI) Ethics and Regulation Watch" of the [DIGILAW](https://www.sciencespo.fr/ecole-droit/en/clinic/digilaw/) research program.
+dataset: https://github.com/OpenTermsArchive/genai-versions/releases
+declarations: https://github.com/OpenTermsArchive/genai-declarations
+versions: https://github.com/OpenTermsArchive/genai-versions
+snapshots: https://github.com/OpenTermsArchive/genai-snapshots
+donations: https://opencollective.com/opentermsarchive
+logo: https://opentermsarchive.org/images/collections/generative-ai.png
+languages: [en]
+jurisdictions: [EU]
+trackingPeriods:
+  startDate: 2023-09-26
+  schedule: "30 */12 * * *"
+  serverLocation: London, GB
+governance:
+  hosts: 
+    - name: Ministry for Europe and Foreign Affairs
+      url: https://www.diplomatie.gouv.fr/en/
+      logo: https://opentermsarchive.org/images/contributors/meae.png
+  administrators:
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org/
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+  curators:
+    - name: Sciences Po Law School Clinic
+      url: https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/
+      logo: https://opentermsarchive.org/images/contributors/sciences-po-law-school-clinic.png
+  maintainers:
+    - name: Sciences Po Law School Clinic
+      url: https://www.sciencespo.fr/ecole-droit/en/clinic/presentation/
+      logo: https://opentermsarchive.org/images/contributors/sciences-po-law-school-clinic.png
+  sponsors: 
+    - name: Ministry for Europe and Foreign Affairs
+      url: https://www.diplomatie.gouv.fr/en/
+      logo: https://opentermsarchive.org/images/contributors/meae.png
+
+i18n:
+  fr: 
+    tagline: Services d'IA générative les plus populaires
+    description: | 
+      La collection Generative AI suit les documents des services d'intelligence artificielle générative les plus populaires dans juridiction de l'Union européenne et écrits en anglais.
+      
+      Elle vise à engager l'analyse des changements apportés à ces documents mais aussi à analyser l'évolution du paysage réglementaire des services d'IA générative et à réfléchir à l'évaluation de la conformité.
+      
+      Elle est maintenue par la [Clinique de l'École de droit de Sciences Po](https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/) pour le projet "Éthique et réglementation de l'intelligence artificielle (IA)" du programme de recherche [DIGILAW](https://www.sciencespo.fr/ecole-droit/fr/clinique/digilaw/);
+    governance:
+      hosts: 
+        - name: Ministère de l'Europe et des Affaires étrangères
+          url: https://www.diplomatie.gouv.fr
+          logo: https://opentermsarchive.org/images/contributors/meae.png
+      curators:
+        - name: Clinique de l'École de droit de Sciences Po
+          url: https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/
+          logo: https://opentermsarchive.org/images/contributors/sciences-po-ecole-de-droit.png
+      maintainers:
+        - name: Clinique de l'École de droit de Sciences Po
+          url: https://www.sciencespo.fr/ecole-droit/fr/clinique/presentation/
+          logo: https://opentermsarchive.org/images/contributors/sciences-po-ecole-de-droit.png
+      sponsors: 
+        - name: Ministère de l'Europe et des Affaires étrangères
+          url: https://www.diplomatie.gouv.fr
+          logo: https://opentermsarchive.org/images/contributors/meae.png
