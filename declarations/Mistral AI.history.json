@@ -24,6 +24,13 @@
         ".markdown"
       ],
       "validUntil": "2024-02-26T12:30:55Z"
+    },
+    {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#terms-of-service-la-plateforme"
+      ],
+      "validUntil": "to-be-determined"
     }
   ],
   "Data Processor Agreement": [
