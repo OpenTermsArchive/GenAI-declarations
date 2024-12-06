@@ -16,7 +16,7 @@
     "Developer Terms": {
       "fetch": "https://mistral.ai/terms/",
       "select": [
-        "#terms-of-use"
+        "#additional-terms-la-plateforme"
       ],
       "executeClientScripts": true
     },
