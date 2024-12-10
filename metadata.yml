@@ -16,7 +16,7 @@ logo: https://opentermsarchive.org/images/collections/generative-ai.png
 languages: [en]
 jurisdictions: [EU]
 trackingPeriods:
-  startDate: 2023-09-26
+  - startDate: 2023-09-26
   schedule: "30 */12 * * *"
   serverLocation: London, GB
 governance:
