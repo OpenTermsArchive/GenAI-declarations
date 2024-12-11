@@ -17,8 +17,8 @@ languages: [en]
 jurisdictions: [EU,CN]
 trackingPeriods:
   - startDate: 2023-09-26
-  schedule: "30 */12 * * *"
-  serverLocation: London, GB
+    schedule: "30 */12 * * *"
+    serverLocation: London, GB
 governance:
   hosts:
     - name: Ministry for Europe and Foreign Affairs
