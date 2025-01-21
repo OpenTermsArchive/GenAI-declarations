@@ -12,6 +12,12 @@
       "select": [
         "main"
       ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://x.ai/legal/acceptable-use-policy",
+      "select": [
+        ".col-xxl-6"
+      ]
     }
   }
 }
