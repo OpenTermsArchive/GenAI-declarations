@@ -1,0 +1,19 @@
+{
+  "name": "Kimi",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://kimi.ai/user/agreement/modelUse",
+      "select": [
+        ".markdown"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://kimi.ai/user/agreement/userPrivacy",
+      "select": [
+        ".markdown"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
