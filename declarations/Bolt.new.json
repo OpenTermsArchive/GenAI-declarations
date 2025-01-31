@@ -1,0 +1,19 @@
+{
+  "name": "bolt.new",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://stackblitz.com/terms-of-service",
+      "select": [
+        ".static-page"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://stackblitz.com/privacy-policy",
+      "select": [
+        ".static-page"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
