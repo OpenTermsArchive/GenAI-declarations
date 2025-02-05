@@ -14,7 +14,8 @@
     "Privacy Policy": {
       "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
       "select": [
-        "[role=\"main\"]"
+        ".col:nth-child(3)",
+        "#areaheading-uidda881 > .row"
       ],
       "remove": [
         ".expand_collapse",
