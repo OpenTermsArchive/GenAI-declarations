@@ -10,5 +10,25 @@
       ],
       "validUntil": "2024-02-09T12:30:18Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
+      "select": [
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        ".expand_collapse",
+        ".div_print",
+        ".nav_content",
+        ".LearnMoreNavigation",
+        ".TopNavigation",
+        ".CollectingYourInfoRightNav",
+        ".gcc_cookies",
+        "#dvGroupModules",
+        "#dvServicesAgreement"
+      ],
+      "validUntil": "to-be-determined"
+    }
   ]
 }
