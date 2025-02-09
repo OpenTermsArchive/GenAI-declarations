@@ -1,5 +1,5 @@
 {
-  "name": "bolt.new",
+  "name": "Bolt.new",
   "documents": {
     "Terms of Service": {
       "fetch": "https://stackblitz.com/terms-of-service",
