@@ -1,0 +1,19 @@
+{
+  "name": "OpenRouter",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://openrouter.ai/terms",
+      "select": [
+        ".main-content-container"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://openrouter.ai/privacy",
+      "select": [
+        ".main-content-container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

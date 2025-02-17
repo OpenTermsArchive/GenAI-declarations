@@ -1,0 +1,19 @@
+{
+  "name": "Replicate",
+  "documents": {
+    "Terms of Service": {
+      "fetch": "https://replicate.com/terms",
+      "select": [
+        "article"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://replicate.com/privacy",
+      "select": [
+        "article"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
