@@ -1,6 +1,6 @@
 {
   "name": "Scribe",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://scribehow.com/legal/terms",
       "select": [

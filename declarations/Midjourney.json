@@ -1,6 +1,6 @@
 {
   "name": "Midjourney",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://docs.midjourney.com/docs/terms-of-service",
       "select": [

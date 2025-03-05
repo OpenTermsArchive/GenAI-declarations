@@ -1,6 +1,6 @@
 {
   "name": "豆包",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.doubao.com/legal/terms",
       "select": [

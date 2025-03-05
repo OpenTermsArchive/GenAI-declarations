@@ -1,6 +1,6 @@
 {
   "name": "Google Generative AI Services",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "select": [
         "[role=\"article\"]"

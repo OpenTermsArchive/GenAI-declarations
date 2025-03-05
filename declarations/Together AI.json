@@ -1,6 +1,6 @@
 {
   "name": "Together AI",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.together.ai/terms-of-service",
       "select": [
