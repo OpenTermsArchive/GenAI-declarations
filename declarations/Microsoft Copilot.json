@@ -1,6 +1,6 @@
 {
   "name": "Microsoft Copilot",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.bing.com/new/termsofuse?setlang=en",
       "select": [

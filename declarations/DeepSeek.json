@@ -1,6 +1,6 @@
 {
   "name": "DeepSeek",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html",
       "select": [

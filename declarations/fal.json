@@ -1,6 +1,6 @@
 {
   "name": "fal",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://fal.ai/terms",
       "select": [

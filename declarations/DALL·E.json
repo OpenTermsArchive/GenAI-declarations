@@ -1,6 +1,6 @@
 {
   "name": "DALL·E",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://openai.com/policies/eu-terms-of-use/",
       "select": [

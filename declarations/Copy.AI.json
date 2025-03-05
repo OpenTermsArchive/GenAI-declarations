@@ -1,6 +1,6 @@
 {
   "name": "Copy.AI",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.copy.ai/terms-of-service",
       "select": [

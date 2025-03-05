@@ -1,6 +1,6 @@
 {
   "name": "Perplexity",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.perplexity.ai/hub/legal/terms-of-service",
       "select": [

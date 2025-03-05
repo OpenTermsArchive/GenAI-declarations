@@ -1,6 +1,6 @@
 {
   "name": "Codeium",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://codeium.com/terms-of-service-individual",
       "select": [
