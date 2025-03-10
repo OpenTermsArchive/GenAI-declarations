@@ -1,6 +1,6 @@
 {
   "name": "Replit",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://replit.com/terms-of-service",
       "select": [

@@ -1,6 +1,6 @@
 {
   "name": "Cursor",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.cursor.com/terms-of-service",
       "select": [

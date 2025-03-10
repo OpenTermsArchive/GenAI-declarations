@@ -1,6 +1,6 @@
 {
   "name": "文心一言",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://passport.baidu.com/static/passpc-account/html/protocal.html",
       "select": [

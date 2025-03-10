@@ -1,6 +1,6 @@
 {
   "name": "SambaNova Systems",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://sambanova.ai/terms-and-conditions",
       "select": [

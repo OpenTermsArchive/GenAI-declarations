@@ -1,6 +1,6 @@
 {
   "name": "Wordtune",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.wordtune.com/terms-of-use",
       "select": [
