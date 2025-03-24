@@ -1,6 +1,6 @@
 {
   "name": "Replicate",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://replicate.com/terms",
       "select": [

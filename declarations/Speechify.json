@@ -1,6 +1,6 @@
 {
   "name": "Speechify",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://speechify.com/terms",
       "select": "main"

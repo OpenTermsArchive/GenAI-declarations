@@ -1,6 +1,6 @@
 {
   "name": "Jasper",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://legal.jasper.ai/#terms",
       "select": "#contract-body",

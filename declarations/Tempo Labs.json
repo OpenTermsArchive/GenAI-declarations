@@ -1,6 +1,6 @@
 {
   "name": "Tempo Labs",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://tempolabsinc.mintlify.app/tempo-terms",
       "select": [

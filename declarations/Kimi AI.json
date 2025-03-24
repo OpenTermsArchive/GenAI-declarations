@@ -1,6 +1,6 @@
 {
   "name": "Kimi",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://kimi.ai/user/agreement/modelUse",
       "select": [

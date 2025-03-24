@@ -1,6 +1,6 @@
 {
   "name": "Bardeen",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://www.bardeen.ai/terms-of-service",
       "select": [

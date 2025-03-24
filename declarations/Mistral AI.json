@@ -1,6 +1,6 @@
 {
   "name": "Mistral AI",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://mistral.ai/terms/",
       "select": [

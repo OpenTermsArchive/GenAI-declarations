@@ -1,6 +1,6 @@
 {
   "name": "Bolt.new",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://stackblitz.com/terms-of-service",
       "select": [

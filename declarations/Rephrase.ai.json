@@ -1,6 +1,6 @@
 {
   "name": "Rephrase.ai",
-  "documents": {
+  "terms": {
     "Privacy Policy": {
       "fetch": "https://www.rephrase.ai/privacy-policy",
       "select": [

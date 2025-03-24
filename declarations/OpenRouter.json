@@ -1,6 +1,6 @@
 {
   "name": "OpenRouter",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://openrouter.ai/terms",
       "select": [

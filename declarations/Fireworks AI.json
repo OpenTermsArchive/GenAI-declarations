@@ -1,6 +1,6 @@
 {
   "name": "Fireworks AI",
-  "documents": {
+  "terms": {
     "Terms of Service": {
       "fetch": "https://fireworks.ai/terms-of-service",
       "select": [
