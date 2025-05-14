@@ -16,6 +16,6 @@
     "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "^5.0.3"
+    "@opentermsarchive/engine": "^5.2.0"
   }
 }
