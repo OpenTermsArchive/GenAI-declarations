@@ -1,0 +1,19 @@
+{
+  "name": "Lovable",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://lovable.dev/terms",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://lovable.dev/privacy",
+      "select": [
+        ".container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
