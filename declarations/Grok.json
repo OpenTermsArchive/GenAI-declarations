@@ -1,0 +1,66 @@
+{
+  "name": "Grok",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://x.ai/legal/terms-of-service",
+      "select": [
+        "body > header + section"
+      ],
+      "remove": [
+        "[href='/legal/']:first-child"
+      ]
+    },
+    "Privacy Policy": {
+      "select": [
+        "body > header + section"
+      ],
+      "remove": [
+        "[href='/legal/']:first-child"
+      ],
+      "combine": [
+        {
+          "fetch": "https://x.ai/legal/privacy-policy/"
+        },
+        {
+          "fetch": "https://x.ai/legal/europe-privacy-policy-addendum"
+        }
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://x.ai/legal/acceptable-use-policy",
+      "select": [
+        "body > header + section"
+      ],
+      "remove": [
+        "[href='/legal/']:first-child"
+      ]
+    },
+    "Developer Terms": {
+      "fetch": "https://x.ai/legal/terms-of-service-enterprise",
+      "select": [
+        "body > header + section"
+      ],
+      "remove": [
+        "[href='/legal/']:first-child"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://x.ai/legal/cookie-policy",
+      "select": [
+        "body > header + section"
+      ],
+      "remove": [
+        "[href='/legal/']:first-child"
+      ]
+    },
+    "Brand Guidelines": {
+      "fetch": "https://x.ai/legal/brand-guidelines",
+      "select": [
+        "body > header + section"
+      ],
+      "remove": [
+        "[href='/legal/']:first-child"
+      ]
+    }
+  }
+}
