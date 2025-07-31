@@ -26,9 +26,33 @@
       ]
     },
     "Acceptable Use Policy": {
-      "fetch": "https://www.anthropic.com/legal/aup",
-      "select": [
-        "main"
+      "combine": [
+        {
+          "fetch": "https://www.anthropic.com/legal/aup",
+          "select": [
+            "main"
+          ]
+        },
+        {
+          "fetch": "https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+          "select": [
+            ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        },
+        {
+          "fetch": "https://support.anthropic.com/en/articles/9528712-exceptions-to-our-usage-policy",
+          "select": [
+            ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        }
       ]
     },
     "Vulnerability Disclosure Policy": {
@@ -38,9 +62,30 @@
       ]
     },
     "Data Processor Agreement": {
-      "fetch": "https://www.anthropic.com/legal/data-processing-addendum",
+      "combine": [
+        {
+          "fetch": "https://www.anthropic.com/legal/data-processing-addendum",
+          "select": [
+            "main"
+          ]
+        },
+        {
+          "fetch": "https://trust.anthropic.com/subprocessors",
+          "executeClientScripts": true,
+          "select": [
+            "table"
+          ]
+        }
+      ]
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
       "select": [
-        "main"
+        ".article"
+      ],
+      "remove": [
+        ".avatar__info",
+        ".related_articles"
       ]
     }
   }
