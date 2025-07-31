@@ -12,6 +12,17 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-05-02T00:30:06Z"
+    },
+    {
+      "fetch": "https://openai.com/policies/eu-terms-of-use/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-07-30T00:00:00Z"
     }
   ],
   "Privacy Policy": [
@@ -27,6 +38,17 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-05-02T00:30:10Z"
+    },
+    {
+      "fetch": "https://openai.com/policies/eu-privacy-policy/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-07-30T00:00:00Z"
     }
   ],
   "Developer Terms": [
@@ -42,6 +64,17 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-05-02T00:30:13Z"
+    },
+    {
+      "fetch": "https://openai.com/policies/plugin-terms",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-07-30T00:00:00Z"
     }
   ],
   "Acceptable Use Policy": [
@@ -57,6 +90,17 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-05-02T00:30:16Z"
+    },
+    {
+      "fetch": "https://openai.com/policies/usage-policies",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-07-30T00:00:00Z"
     }
   ],
   "Data Processor Agreement": [
@@ -87,6 +131,19 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2024-05-02T00:30:23Z"
+    }
+  ],
+  "Business Privacy Policy": [
+    {
+      "fetch": "https://openai.com/policies/business-terms",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2025-07-30T00:00:00Z"
     }
   ]
 }
