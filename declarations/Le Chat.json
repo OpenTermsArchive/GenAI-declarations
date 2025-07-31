@@ -1,0 +1,55 @@
+{
+  "name": "Le Chat",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#terms-of-service",
+        "#additional-terms-for-consumers",
+        "#additional-product-terms",
+        "#additional-terms-for-ai-laws-responsibilities"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#privacy-policy"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#cookie-policy"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#partner-served-deployment-terms"
+      ]
+    },
+    "Data Processor Agreement": {
+      "combine": [
+        {
+          "fetch": "https://mistral.ai/terms/",
+          "select": [
+            "#data-processing-addendum"
+          ]
+        },
+        {
+          "fetch": "https://trust.mistral.ai/subprocessors",
+          "executeClientScripts": true,
+          "select": [
+            "table"
+          ]
+        }
+      ]
+    },
+    "Imprint": {
+      "fetch": "https://mistral.ai/legal/",
+      "select": [
+        "section"
+      ]
+    }
+  }
+}

@@ -6,6 +6,13 @@
         ".markdown"
       ],
       "validUntil": "2024-02-26T12:30:54Z"
+    },
+    {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#terms-of-use"
+      ],
+      "validUntil": "2025-02-06T12:32:25Z"
     }
   ],
   "Privacy Policy": [
@@ -31,6 +38,13 @@
         "#terms-of-service-la-plateforme"
       ],
       "validUntil": "2024-11-16T00:31:57Z"
+    },
+    {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#additional-terms-la-plateforme"
+      ],
+      "validUntil": "2025-02-08T12:32:39Z"
     }
   ],
   "Data Processor Agreement": [
@@ -40,6 +54,13 @@
         ".markdown"
       ],
       "validUntil": "2024-02-26T12:30:55Z"
+    },
+    {
+      "fetch": "https://mistral.ai/terms/",
+      "select": [
+        "#data-processing-agreement"
+      ],
+      "validUntil": "2025-05-08T00:33:30Z"
     }
   ]
 }
