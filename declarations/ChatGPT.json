@@ -6,7 +6,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -23,7 +24,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -41,7 +43,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     },
@@ -50,7 +53,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -74,7 +78,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     },
@@ -84,7 +89,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     },
@@ -94,7 +100,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     },
@@ -104,7 +111,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     },
@@ -114,7 +122,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     },
@@ -124,7 +133,8 @@
         "main"
       ],
       "remove": [
-        "select[name=\"Locale Select\"]"
+        "select[name=\"Locale Select\"]",
+        "main .sr-only"
       ],
       "executeClientScripts": true
     }
