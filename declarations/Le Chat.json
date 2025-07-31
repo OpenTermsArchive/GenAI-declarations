@@ -4,7 +4,8 @@
     "Terms of Service": {
       "fetch": "https://mistral.ai/terms/",
       "select": [
-        "#terms-of-use"
+        "#terms-of-service",
+        "#additional-terms-for-consumers"
       ]
     },
     "Privacy Policy": {
