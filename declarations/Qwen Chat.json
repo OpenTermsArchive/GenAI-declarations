@@ -1,0 +1,25 @@
+{
+  "name": "Qwen Chat",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://chat.qwen.ai/legal-agreement/terms-of-service",
+      "executeClientScripts": true,
+      "select": [
+        ".legalPage"
+      ],
+      "remove": [
+        "img.svelte-1wwl91d"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://chat.qwen.ai/legal-agreement/privacy-policy",
+      "executeClientScripts": true,
+      "select": [
+        ".legalPage"
+      ],
+      "remove": [
+        "img.svelte-15nki1"
+      ]
+    }
+  }
+}
