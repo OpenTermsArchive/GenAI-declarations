@@ -2,27 +2,41 @@
   "name": "ChatGPT",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://openai.com/policies/eu-terms-of-use/",
       "select": [
         "main"
       ],
       "remove": [
         "select[name=\"Locale Select\"]"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://openai.com/policies/eu-terms-of-use/"
+        },
+        {
+          "fetch": "https://openai.com/policies/service-terms/"
+        }
+      ]
     },
     "Privacy Policy": {
-      "fetch": "https://openai.com/policies/eu-privacy-policy/",
       "select": [
         "main"
       ],
       "remove": [
         "select[name=\"Locale Select\"]"
       ],
-      "executeClientScripts": true
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://openai.com/policies/eu-privacy-policy/"
+        },
+        {
+          "fetch": "https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/"
+        }
+      ]
     },
     "Developer Terms": {
-      "fetch": "https://openai.com/policies/plugin-terms",
+      "fetch": "https://openai.com/policies/connectors-actions-terms/",
       "select": [
         "main"
       ],
@@ -32,7 +46,30 @@
       "executeClientScripts": true
     },
     "Acceptable Use Policy": {
-      "fetch": "https://openai.com/policies/usage-policies",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://openai.com/policies/usage-policies/"
+        },
+        {
+          "fetch": "https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/"
+        },
+        {
+          "fetch": "https://openai.com/policies/creating-images-and-videos-in-line-with-our-policies/"
+        },
+        {
+          "fetch": "https://openai.com/policies/sharing-publication-policy/"
+        }
+      ]
+    },
+    "In-App Purchases Policy": {
+      "fetch": "https://openai.com/policies/service-credit-terms/",
       "select": [
         "main"
       ],
@@ -42,7 +79,7 @@
       "executeClientScripts": true
     },
     "Data Processor Agreement": {
-      "fetch": "https://openai.com/policies/data-processing-addendum",
+      "fetch": "https://openai.com/policies/data-processing-addendum/",
       "select": [
         "main"
       ],
@@ -51,8 +88,38 @@
       ],
       "executeClientScripts": true
     },
-    "Platform to Business Notice": {
-      "fetch": "https://openai.com/policies/business-terms",
+    "Commercial Terms": {
+      "fetch": "https://openai.com/policies/services-agreement/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://openai.com/policies/coordinated-vulnerability-disclosure-policy/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true
+    },
+    "Business Privacy Policy": {
+      "fetch": "https://openai.com/enterprise-privacy/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "select[name=\"Locale Select\"]"
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://openai.com/policies/cookie-policy/",
       "select": [
         "main"
       ],
