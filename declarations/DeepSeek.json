@@ -2,14 +2,21 @@
   "name": "DeepSeek",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://chat.deepseek.com/downloads/DeepSeek%20Terms%20of%20Use.html",
+      "fetch": "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
       "select": [
         "#write"
       ],
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://chat.deepseek.com/downloads/DeepSeek%20Privacy%20Policy.html",
+      "fetch": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "select": [
+        "#write"
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://cdn.deepseek.com/policies/en-US/cookies-policy.html",
       "select": [
         "#write"
       ],
