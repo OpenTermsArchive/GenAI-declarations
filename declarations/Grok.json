@@ -35,7 +35,7 @@
         "[href=\"/legal\"]:first-child"
       ]
     },
-    "Developer Terms": {
+    "Commercial Terms": {
       "fetch": "https://x.ai/legal/terms-of-service-enterprise",
       "select": [
         "body > header + section"
