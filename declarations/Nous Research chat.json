@@ -1,0 +1,13 @@
+{
+  "name": "Nous Research chat",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://portal.nousresearch.com/terms",
+      "select": "main:not([class*=\"hidden\"]) main .terms-container"
+    },
+    "Privacy Policy": {
+      "fetch": "https://portal.nousresearch.com/privacy",
+      "select": "main:not([class*=\"hidden\"]) main .terms-container"
+    }
+  }
+}
