@@ -1,0 +1,92 @@
+{
+  "name": "Claude.ai",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.anthropic.com/legal/consumer-terms",
+      "select": [
+        "main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.anthropic.com/legal/privacy",
+      "select": [
+        "main"
+      ]
+    },
+    "Commercial Terms": {
+      "fetch": "https://www.anthropic.com/legal/commercial-terms",
+      "select": [
+        "main"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.anthropic.com/legal/cookies",
+      "select": [
+        "main"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "combine": [
+        {
+          "fetch": "https://www.anthropic.com/legal/aup",
+          "select": [
+            "main"
+          ]
+        },
+        {
+          "fetch": "https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+          "select": [
+            ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        },
+        {
+          "fetch": "https://support.anthropic.com/en/articles/9528712-exceptions-to-our-usage-policy",
+          "select": [
+            ".article"
+          ],
+          "remove": [
+            ".avatar__info",
+            ".related_articles"
+          ]
+        }
+      ]
+    },
+    "Vulnerability Disclosure Policy": {
+      "fetch": "https://www.anthropic.com/responsible-disclosure-policy",
+      "select": [
+        "main"
+      ]
+    },
+    "Data Processor Agreement": {
+      "combine": [
+        {
+          "fetch": "https://www.anthropic.com/legal/data-processing-addendum",
+          "select": [
+            "main"
+          ]
+        },
+        {
+          "fetch": "https://trust.anthropic.com/subprocessors",
+          "executeClientScripts": true,
+          "select": [
+            "table"
+          ]
+        }
+      ]
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
+      "select": [
+        ".article"
+      ],
+      "remove": [
+        ".avatar__info",
+        ".related_articles"
+      ]
+    }
+  }
+}

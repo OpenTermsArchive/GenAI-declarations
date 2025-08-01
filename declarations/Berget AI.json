@@ -1,0 +1,40 @@
+{
+  "name": "Berget AI",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://berget.ai/terms",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://berget.ai/privacy",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://berget.ai/dpa",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://berget.ai/acceptable-use",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Service Level Agreement": {
+      "fetch": "https://berget.ai/sla",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
