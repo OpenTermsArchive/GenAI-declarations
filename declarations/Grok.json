@@ -7,7 +7,7 @@
         "body > header + section"
       ],
       "remove": [
-        "[href='/legal/']:first-child"
+        "[href=\"/legal\"]:first-child"
       ]
     },
     "Privacy Policy": {
@@ -15,7 +15,7 @@
         "body > header + section"
       ],
       "remove": [
-        "[href='/legal/']:first-child"
+        "[href=\"/legal\"]:first-child"
       ],
       "combine": [
         {
@@ -32,7 +32,7 @@
         "body > header + section"
       ],
       "remove": [
-        "[href='/legal/']:first-child"
+        "[href=\"/legal\"]:first-child"
       ]
     },
     "Developer Terms": {
@@ -41,7 +41,7 @@
         "body > header + section"
       ],
       "remove": [
-        "[href='/legal/']:first-child"
+        "[href=\"/legal\"]:first-child"
       ]
     },
     "Trackers Policy": {
@@ -50,7 +50,7 @@
         "body > header + section"
       ],
       "remove": [
-        "[href='/legal/']:first-child"
+        "[href=\"/legal\"]:first-child"
       ]
     },
     "Brand Guidelines": {
@@ -59,7 +59,7 @@
         "body > header + section"
       ],
       "remove": [
-        "[href='/legal/']:first-child"
+        "[href=\"/legal\"]:first-child"
       ]
     }
   }
