@@ -79,9 +79,8 @@
     "Data Processor Agreement": {
       "fetch": "https://forwork.meta.com/fr/en/legal/mfw-subprocessor-list/",
       "executeClientScripts": true,
-      "select": [
-        "main"
-      ]
+      "select": "main",
+      "remove": "#ssrb_root_content"
     }
   }
 }
