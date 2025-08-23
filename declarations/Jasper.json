@@ -2,36 +2,23 @@
   "name": "Jasper",
   "terms": {
     "Terms of Service": {
-      "fetch": "https://legal.jasper.ai/#terms",
-      "select": "#contract-body",
-      "remove": [
-        ".version-download-link",
-        ".table-of-contents",
-        "[style=\"display: none;\"]",
-        ".select-version"
-      ],
+      "fetch": "https://www.jasper.ai/legal/terms",
+      "select": ".sticky_scroll_right",
       "executeClientScripts": true
     },
     "Privacy Policy": {
-      "fetch": "https://legal.jasper.ai/#privacy",
-      "select": "#contract-body",
-      "remove": [
-        ".version-download-link",
-        ".table-of-contents",
-        "[style=\"display: none;\"]",
-        ".select-version"
-      ],
+      "fetch": "https://www.jasper.ai/legal/privacy",
+      "select": ".sticky_scroll_right",
       "executeClientScripts": true
     },
-    "Vulnerability Disclosure Policy": {
-      "fetch": "https://legal.jasper.ai/#security-requirements",
-      "select": "#contract-body",
-      "remove": [
-        ".version-download-link",
-        ".table-of-contents",
-        "[style=\"display: none;\"]",
-        ".select-version"
-      ],
+    "Acceptable Use Policy": {
+      "fetch": "https://www.jasper.ai/legal/usage-policies",
+      "select": ".sticky_scroll_right",
+      "executeClientScripts": true
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://www.jasper.ai/legal/dpa",
+      "select": ".sticky_scroll_right",
       "executeClientScripts": true
     }
   }
