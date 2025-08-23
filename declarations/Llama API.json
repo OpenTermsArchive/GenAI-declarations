@@ -43,20 +43,29 @@
       "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
     },
     "Privacy Policy": {
-      "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
-      "executeClientScripts": true,
-      "select": [
-        "#root"
-      ],
-      "remove": [
-        ".k",
-        ".l",
-        ".bh",
-        ".bk",
-        ".bi"
-      ],
-      "filter": [
-        "removeTrackingIDs"
+      "combine": [
+        {
+          "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
+          "executeClientScripts": true,
+          "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+        },
+        {
+          "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
+          "executeClientScripts": true,
+          "select": [
+            "#root"
+          ],
+          "remove": [
+            ".k",
+            ".l",
+            ".bh",
+            ".bk",
+            ".bi"
+          ],
+          "filter": [
+            "removeTrackingIDs"
+          ]
+        }
       ]
     },
     "Trackers Policy": {
