@@ -11,12 +11,10 @@
         {
           "fetch": "https://www.facebook.com/legal/terms/data_security_terms",
           "executeClientScripts": true,
-          "select": [
-            "[role=\"main\"]"
-          ],
-          "remove": [
-            "div:not([class]) + div"
-          ]
+          "select": {
+            "startBefore": "[role=\"main\"]",
+            "endBefore": "[role=\"separator\"]"
+          }
         },
         {
           "fetch": "https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms",
@@ -32,7 +30,10 @@
           "select": {
             "startBefore": "[role=\"main\"]",
             "endAfter": "[style] ~ ol"
-          }
+          },
+          "filter": [
+            "removeTrackingIDs"
+          ]
         }
       ]
     },
@@ -51,9 +52,8 @@
         ".k",
         ".l",
         ".bh",
-        "img",
         ".bk",
-        "[href^=\"/video_redirect/\"]"
+        ".bi"
       ],
       "filter": [
         "removeTrackingIDs"
