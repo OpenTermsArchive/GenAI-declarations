@@ -1,0 +1,26 @@
+{
+  "name": "Liquid AI",
+  "terms": {
+    "Terms of Service": {
+      "select": [
+        "h1",
+        ".legal-rich-text"
+      ],
+      "combine": [
+        {
+          "fetch": "https://liquid.ai/terms-conditions"
+        },
+        {
+          "fetch": "https://www.liquid.ai/lfm-license"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://liquid.ai/privacy-policy",
+      "select": [
+        "h1",
+        ".legal-rich-text"
+      ]
+    }
+  }
+}
