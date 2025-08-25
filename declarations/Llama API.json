@@ -1,0 +1,95 @@
+{
+  "name": "Llama API",
+  "terms": {
+    "Terms of Service": {
+      "combine": [
+        {
+          "fetch": "https://llama.developer.meta.com/legal/terms-of-service",
+          "executeClientScripts": true,
+          "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/terms/data_security_terms",
+          "executeClientScripts": true,
+          "select": {
+            "startBefore": "[role=\"main\"]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms",
+          "executeClientScripts": true,
+          "select": {
+            "startBefore": "[role=\"main\"]",
+            "endAfter": "[style] ~ ol"
+          }
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms/Europe",
+          "executeClientScripts": true,
+          "select": {
+            "startBefore": "[role=\"main\"]",
+            "endAfter": "[style] ~ ol"
+          },
+          "filter": [
+            "removeTrackingIDs"
+          ]
+        }
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
+      "executeClientScripts": true,
+      "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+    },
+    "Privacy Policy": {
+      "combine": [
+        {
+          "fetch": "https://llama.developer.meta.com/docs/trust/data-commitments",
+          "executeClientScripts": true,
+          "select": "[data-pagelet=\"LLMDCPageMainContent\"]"
+        },
+        {
+          "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
+          "executeClientScripts": true,
+          "select": [
+            "#root"
+          ],
+          "remove": [
+            ".k",
+            ".l",
+            ".bh",
+            ".bk",
+            ".bi"
+          ],
+          "filter": [
+            "removeTrackingIDs"
+          ]
+        }
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://mbasic.facebook.com/privacy/policies/cookies/printable/",
+      "executeClientScripts": true,
+      "select": [
+        "#root"
+      ],
+      "remove": [
+        ".k",
+        ".l",
+        ".bh",
+        "img",
+        ".bk"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ]
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://forwork.meta.com/fr/en/legal/mfw-subprocessor-list/",
+      "executeClientScripts": true,
+      "select": "main",
+      "remove": "#ssrb_root_content"
+    }
+  }
+}
