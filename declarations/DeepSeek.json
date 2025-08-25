@@ -21,6 +21,13 @@
         "#write"
       ],
       "executeClientScripts": true
+    },
+    "Developer Terms": {
+      "fetch": "https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html",
+      "select": [
+        "#write"
+      ],
+      "executeClientScripts": true
     }
   }
 }
