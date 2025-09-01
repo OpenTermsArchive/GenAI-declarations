@@ -8,9 +8,16 @@
       ]
     },
     "Privacy Policy": {
-      "fetch": "https://www.anthropic.com/legal/privacy",
       "select": [
         "main"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.anthropic.com/legal/privacy"
+        },
+        {
+          "fetch": "https://www.anthropic.com/legal/non-user-privacy-policy"
+        }
       ]
     },
     "Commercial Terms": {
